@@ -1,0 +1,112 @@
+
+body{
+    background-color: #f3f3f3;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    color: #000;
+    line-height: 1.5em;
+    
+}
+
+.header{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main{
+  
+}
+
+.footer{
+    
+}
+
+a{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.3em;
+    color: #3177a0;
+}
+a:hover{
+    color: #f189ff;
+}
+
+#title{
+    font-size: 7em;
+    font-weight: lighter;
+}
+
+@media (max-width: 630px) {
+  #title{
+    font-size: 3.5rem;
+    line-height: 1;
+  }
+}
+
+.hero{
+    background-color: #fff;
+    margin: 1em;
+    border-radius: 1em;
+    padding: 1em;
+}
+
+p{
+
+}
+@media (max-width: 480px){
+  p{
+    padding: .2em;
+    margin: .2em;
+    
+  }
+}
+
+#image{
+  display: block;
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+#img-caption{
+  text-align: center;
+  margin-top: .5em;
+  padding-top: .5em;
+}
+
+ul {
+  display: table;
+  margin: 1em auto;
+  max-width:60%;
+}
+
+.quote{
+    background-color: #fff;
+    margin: auto;
+    border-radius: 1em;
+    padding: 1em;
+}
+@media (max-width: 480px){
+  #quote{
+    margin: .3em;
+    border-radius: .3em;
+    padding: .3em;
+    }
+  }
+#quote>p,cite,blockquote{
+  max-width:60%;
+  margin: auto;
+}
+
+h3, h4{
+  text-align: center;
+}
+@media (max-width: 480px){
+  h3{
+    font-size: 1.7rem;
+    line-height: 1;
+  }
+}
+
